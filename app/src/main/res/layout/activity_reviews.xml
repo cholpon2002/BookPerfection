@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/for_splash"
+    android:focusableInTouchMode="true">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        app:lottie_fileName="coffee_meditation.json"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Напишите разработчику"
+        android:textColor="@color/DarkMagenta"
+
+        android:textStyle="bold"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:id="@+id/login_form"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/sendmail">
+
+            <LinearLayout
+                android:id="@+id/email_login_form"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/user_name"
+                    android:layout_width="350dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20sp"
+                    android:background="@drawable/round_corner_hollow"
+                    android:hint="введите имя"
+                    android:textColorHint="@color/MediumPurple"
+                    android:paddingLeft="20dp"
+                    android:textSize="19sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="18dp"
+                    android:text="Критичность темы"
+                    android:textColor="@color/DarkMagenta" />
+
+                <Spinner
+                    android:id="@+id/severityspinner"
+                    android:layout_width="350dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/round_corner_hollow"
+                    android:paddingStart="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="18dp"
+                    android:text="Детали"
+                    android:textColor="@color/DarkMagenta" />
+
+                <EditText
+                    android:id="@+id/problem_description"
+                    android:layout_width="350dp"
+                    android:layout_height="221dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/round_corner_hollow"
+                    android:ems="10"
+                    android:gravity="start|top"
+                    android:hint="Введите ваше сообщение"
+                    android:inputType="textMultiLine"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="18dp"
+                    android:paddingRight="20dp"
+                    android:textColorHint="@color/MediumPurple" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+        <Button
+            android:id="@+id/sendmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:backgroundTint="@color/DarkOrchid"
+            android:text="Отправить"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

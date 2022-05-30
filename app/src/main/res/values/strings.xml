@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BookParadise</string>
+    <string name="glavnaia_str">ТУТ ТЫ ДОЛЖНА ТУПО ДОБАВИТЬ КАРТИНКУ С ТЕКСТОМ О БЕСТСЕЛЛЕРЕ НА СВОЙ ВКУС ДИЗАЙН, БОКОВОЕ МЕНЮ НЕ СТАЛ ДЕЛАТЬ ПОТОМУ ЧТО ТАМ ПИИИЗДЕЦ КАК МНОГО ЧЕ НУЖНО НАСТРОИТЬ, А У МЕНЯ ВРЕМЕНИ НЕТ УЖЕ, ИБО Я СВОЕ ЕЩЕ НЕ СДЕЛАЛ. ПОЭТОМУ ЗДЕСЬ БУДЕТ КНОПКА НА СТР "ОТЗЫВЫ"</string>
+    <string name="find_book">НАЙТИ КНИГУ</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sky2"
+    tools:context=".HomeActivity">
+
+
+
+        <Button
+            android:id="@+id/buttonMove"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="@string/find_book"
+            android:drawableRight="@drawable/ic_baseline_search_24"
+            android:drawableTint="@color/white"
+            android:src="@drawable/ic_baseline_search_24"
+            android:textAlignment="center"
+            android:backgroundTint="@color/MediumPurple"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.039"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="268dp"
+            tools:layout_editor_absoluteY="37dp" />
+
+
+
+
+    <Button
+        android:id="@+id/buttonMove2"
+        android:layout_marginLeft="20dp"
+        android:layout_width="124dp"
+        android:layout_height="74dp"
+        android:backgroundTint="@color/MediumPurple"
+        android:text="Оставить отзыв"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.167"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.777" />
+
+    <Button
+        android:id="@+id/buttonMove3"
+        android:layout_width="124dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="74dp"
+        android:backgroundTint="@color/Plum"
+        android:text="О нас"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.874"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.777" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
